@@ -3,7 +3,7 @@
 
 Custom blog webapp allows admin to add blogs. Using this app admin can create category add, edit, delete the blogs Here are the requrements of app
 
-##Features
+### Features
   1. Create category
   2. Create Blog Users
   3. Show Blog posts
