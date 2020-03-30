@@ -13,7 +13,7 @@ Custom blog webapp allows admin to add blogs. Using this app admin can create ca
 ### Setup 
 
   1. Download the files or git clone
-  2. Unzip in a folder
+  2. Unzip the folder 
   3. Import database from database folder 
   4. Go to application/config/database.php and set the database name, username & Password
 
