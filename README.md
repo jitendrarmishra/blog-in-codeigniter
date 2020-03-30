@@ -3,14 +3,14 @@
 
 Custom blog webapp allows admin to add blogs. Using this app admin can create category add, edit, delete the blogs Here are the requrements of app
 
-#Features
+##Features
   1. Create category
   2. Create Blog Users
-  3. Blog posts
+  3. Show Blog posts
   4. User can comment on the post
   5. Admin can approve disapprove comments
   
-#Setup 
+##Setup 
 
   Step1 : Download the files or git clone
   Step2 : Unzip in a folder
@@ -18,7 +18,7 @@ Custom blog webapp allows admin to add blogs. Using this app admin can create ca
   Step4 : Go to application/config/database.php and set the database name, username & Password
 
 
-#Credentials
+##Credentials
 
  Admin 
 
