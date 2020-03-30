@@ -1,0 +1,32 @@
+header {
+    color: $white;
+    background: $blue;
+    box-shadow: 0 4px 8px 0 rgba(17, 17, 17, 0.5);
+    transition: all 1s;
+    &.fixed {
+        position: fixed;
+        top: 0;
+        width: 100%;
+        z-index: 99;
+    }
+    .navbar-brand {
+        img {
+            max-width: 250px;
+            @media screen and (max-width: 576px) {
+                max-width: 200px;
+            }
+        }
+    }
+    .navbar-toggler  {
+        outline: none;
+        .navbar-toggler-icon {            
+            background: url(../images/toggle-icon.svg);
+        }
+    }
+    
+    .navbar-nav {
+        .nav-link {
+            color: $white;
+        }
+    }
+}

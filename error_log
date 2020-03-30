@@ -1,0 +1,6 @@
+[30-Aug-2018 12:41:51 UTC] PHP Fatal error:  Call to undefined function flagship_link() in /home/toggleh2015/public_html/cheryls/application/views/business_support.php on line 39
+[30-Aug-2018 12:41:51 UTC] PHP Fatal error:  Call to undefined function flagship_link() in /home/toggleh2015/public_html/cheryls/application/views/business_support.php on line 39
+[30-Aug-2018 12:41:51 UTC] PHP Fatal error:  Call to undefined function flagship_link() in /home/toggleh2015/public_html/cheryls/application/views/business_support.php on line 39
+[31-Aug-2018 05:35:28 UTC] PHP Fatal error:  Call to undefined function base_ulr() in /home/toggleh2015/public_html/cheryls/application/views/introduction.php on line 61
+[31-Aug-2018 06:27:50 UTC] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /home/toggleh2015/public_html/cheryls/system/libraries/Session/drivers/Session_files_driver.php on line 212
+[10-Sep-2018 07:16:52 UTC] PHP Fatal error:  Call to undefined function clean() in /home/toggleh2015/public_html/cheryls/application/controllers/admin/Home.php on line 3795

@@ -1,0 +1,146 @@
+.page-banner {
+    img {
+        width: 100%;
+        display:none;
+    }
+}
+
+/* banner-section */
+.banner-section {
+    .banner-top {
+        background: linear-gradient(rgba(10, 81, 169, 0.8), rgba(10, 81, 169, 0.7)), url('../images/blue-pattern.jpg') left no-repeat;
+        .series-info {
+            @include flex-wrap(nowrap!important);
+            @include align-items(center);
+            margin: 0;
+            padding: 15px 0;
+            .icon {
+                background: $white;
+                padding: 5px;
+                margin-right: 10px;
+                img {
+                    max-width: 90px;
+                }
+            }
+            .info {
+                h2 {
+                    font-size: 1.8rem;
+                }
+                p {
+                    font-size: 10pt;
+                }
+                h2,p  {
+                    color: $white;
+                    font-weight: 400;
+                    overflow: hidden;
+                    text-overflow: ellipsis;
+                    white-space: nowrap;
+                    margin: 2px 0;
+                }
+            }
+        }
+    }
+    .banner-bottom {
+        background: $white;
+        .series-btn-group {
+            .btn {
+                color: $blue;
+                font-weight: 500;
+                outline: none;
+                box-shadow: none;
+                border-right: 2px solid $red;
+                border-radius: 0;
+                &:last-child {
+                    border: none;
+                }
+                &.active {
+                    color: $red;
+                }
+                @media screen and (max-width: 576px){
+                    width: calc(50% - 3px);
+                    &:nth-child(2n) {
+                        border-right: none;
+                    }
+                }
+            }
+        }
+    }
+}
+
+/* series-overview */
+.series-overview {
+    margin-bottom: 20px;
+}
+.series-title {
+    background: $white;
+    margin-bottom: 20px;
+    padding: 20px;
+    p {
+        padding: 0;
+        margin: 0;
+    }
+}
+
+/* contact-page */
+.contact-page {
+    .contact-bx {
+        padding: 30px;
+        background: $white;
+        @include box-shadow(0 1px 4px 0 rgba(0, 0, 0, 0.1));
+
+        h3 {
+            color: $blue;
+            margin-bottom: 20px;
+        }
+        p {
+            max-width: 700px;
+        }
+        form {
+            margin-bottom: 30px;
+        }
+        .form-group {
+            .input-group {
+                display: block;
+                position: relative;
+                .form-control {
+                    width: 100%;
+                    border-width: 0 0 1px 0;
+                    background-color: rgba(0, 0, 0, 0);
+                    padding: 10px 0;
+
+                    textarea {
+                        height: 120px;
+                    }
+                }
+
+                input,
+                select,
+                textarea {
+                    &:focus {
+                        outline: none;
+                        box-shadow: none;
+                        border-bottom: 1px solid $blue;
+                    }
+                }
+            }
+
+            &.focused {
+                .input-group label {
+                    color: $blue;
+                    top: -8px;
+                    font-size: 10px;
+                }
+            }
+        }
+
+        .btn {
+            background: $red;
+            color: $white;
+            outline: none;
+            text-transform: uppercase;
+            margin-top: 30px;
+        }
+
+    }
+
+}

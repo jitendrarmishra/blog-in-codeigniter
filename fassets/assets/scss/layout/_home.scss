@@ -1,0 +1,149 @@
+.main-container {
+    padding: 30px 0;    
+}
+.card {    
+    margin-bottom: 20px;
+    background: transparent;
+    .card-header {
+        background-color: $blue1;
+        color: $white;
+        position: relative;
+        overflow: hidden;
+        padding: 25px 20px 15px 20px;
+        h5, h6 {
+            position: relative;
+            z-index: 1;
+        }
+        .icon {
+            position: absolute;
+            width: 180px;
+            right: 0;
+            top: 0;
+            img {
+                width: 220px;
+            }
+        }
+    }
+    .card-content {
+        background: $white;
+        padding: 20px;
+
+        ul {
+            margin: -20px;
+            padding: 0;
+            li {
+                list-style: none;
+                padding: 10px 15px;
+                border-bottom: 2px solid $blue;
+                &:last-child {
+                    border-bottom: none;
+                }
+                &:hover {
+                    background:url(../images/bg.svg) no-repeat bottom right;
+                    background-size: 80px;
+                    @include box-shadow(5px 4px 10px 0px rgba(0, 0, 0, 0.5));
+                }
+                a {
+                    color: $body_text;
+                    display: block;
+                    p {
+                        text-align: center;
+                        margin-bottom: 5px;
+                    }
+                    .card-bottom {
+                        h5 {
+                            color: $red;
+                            margin-bottom: 0;
+                            font-weight: 700;
+                        }
+                        .row {
+                            p {
+                                text-align: inherit;
+                                font-weight: 700;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+        .nav-tabs {
+            margin: -15px 0 0;
+            border: none;
+            .nav-item {
+                border: none;
+                .nav-link {
+                    border: none;                    
+                    &.active, &:hover {
+                        border-bottom: solid 3px $red;
+                    }
+                }
+                &:hover {
+                    border: none;
+                    background: transparent;
+                    box-shadow: none;
+                }
+            }
+            
+        }
+        p {
+            &:last-child {
+                margin-bottom: 0;
+            }
+        }
+    }
+}      
+.current-series-lists {
+    .current-series-list {        
+        background: $white;
+        padding: 15px;
+        margin-bottom: 10px;
+        @include box-shadow(0 1px 4px 0 rgba(0, 0, 0, 0.1));
+        @include transition(all 0.5s);
+        &:hover {
+            @include box-shadow(5px 4px 10px 0px rgba(0, 0, 0, 0.5));
+        }
+        a {
+            color: $blue;
+            font-weight: 500;
+        }
+        p {
+            margin-bottom: 5px;
+            &:last-child {
+                margin-bottom: 0;
+            }
+        }
+        h5 {
+            margin-bottom: 5px;                    
+        }
+    }
+}
+.search-box {
+    margin: 20px 0;
+    .input-group-text {
+        background: $red;
+        color: $white;
+    }
+}
+.pagination {
+    margin: 20px 0;
+    .page-item {
+        &.active, &:hover {
+            .page-link {
+                color: $white;
+                background: $red;
+                border-color: $red;
+            }
+        }
+        a {
+            color: $body_text;
+        }
+    }
+}
+.alert-dark {
+    background: $blue;
+    color: $white;
+}
+.homepage-container {
+    overflow: hidden;    
+    
+}
