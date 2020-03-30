@@ -1,23 +1,36 @@
 
-This custom blog in codeigniter
+### Custom blog in codeigniter download the file or git clone
 
-Step1 : Download the files
-Step2 : Unzip in a floder
-Step3 : Import database from database folder 
-Step4 : Go to application/config/database.php and set the database name, username & Password
+Custom blog webapp allows admin to add blogs. Using this app admin can create category add, edit, delete the blogs Here are the requrements of app
 
-Admin 
-
-Link	 : http://localhost/assignment/ci/admin/login
-Username : admin
-password : 123
+Features
+  1. Create category
+  2. Create Blog Users
+  3. Blog posts
+  4. User can comment on the post and admin will approve then it will show on post.
 
 
-User 
+Setup 
 
-Link : http://localhost/assignment/ci/login
-Email : jitendrar.mishra@yahoo.com 
-Password : 123
+  Step1 : Download the files
+  Step2 : Unzip in a folder
+  Step3 : Import database from database folder 
+  Step4 : Go to application/config/database.php and set the database name, username & Password
 
+
+Credentials
+
+ Admin 
+
+  Link	 : http://localhost/assignment/ci/admin/login
+  Username : admin
+  password : 123
+
+
+ User 
+
+  Link : http://localhost/assignment/ci/login
+  Email : jitendrar.mishra@yahoo.com 
+  Password : 123
 
 
